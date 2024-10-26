@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    width: 80%;
+    max-width: 800px;
+    margin-top: 2rem;
+}
+
+#new-post {
+    margin-top: 2rem;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.post {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.post h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.post p {
+    margin-bottom: 0.5rem;
+}
+
+#login-section {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 0.3rem 0.6rem;
+    cursor: pointer;
+    float: right;
+    font-size: 0.9rem;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+}
